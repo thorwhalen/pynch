@@ -4,7 +4,7 @@ import matplotlib.pylab as plt
 from matplotlib import collections as mc
 
 from mungepy.viz.date_ticks import str_ticks
-from ut.util.time import utc_ms_to_utc_datetime
+from ut.util.utime import utc_ms_to_utc_datetime
 from mungepy.dict_get import get_value_in_key_path
 
 DFLT_FIG_WIDTH = 16
